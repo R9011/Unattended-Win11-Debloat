@@ -14,7 +14,9 @@ Unattended-Win11-Debloat leverages Microsoft's [Answer Files](https://learn.micr
 </br>
 
 > [!NOTE]
-> Unattended-Win11-Debloat has been tested and optimized for personal use. For those unsatisfied or interested in customizing further, consider creating your own answer file using: </br> - [Winhance Unattend Generator](https://github.com/memstechtips/Winhance) following [this video guide](https://youtu.be/lrq3ph3xi50). </br> - [Schneegans Unattend Generator](https://schneegans.de/windows/unattend-generator/) following [this video guide](https://youtu.be/WyLiJl-NQU8).
+> This project is based on UnattendedWinstall created by Mem's Tech Tips and available on GitHub. Full credit for the original work belongs to its respective author(s). Any modifications, integrations, or additional features included here are my own responsibility and do not reflect the views or recommendations of the original project.
+> 
+> UnattendedWinstall is distributed under the terms of its applicable open-source license. Please refer to the original GitHub repository for the latest source code, documentation, and licensing information.
 
 ## Requirements
 
@@ -96,10 +98,7 @@ For more info, check out the full [video guide](https://youtu.be/lrq3ph3xi50?t=3
 
 ### Why don't I have internet after installing Windows?
 
-<details>
-  <summary>Click to Show Instructions</summary>
-  </br>
-  If you’re unable to connect to the internet after installation, it’s likely because your Wi-Fi or LAN (Ethernet) drivers are missing. Windows sometimes doesn’t include all necessary drivers for network adapters, especially if they’re specific to your device.
+- If you’re unable to connect to the internet after installation, it’s likely because your Wi-Fi or LAN (Ethernet) drivers are missing. Windows sometimes doesn’t include all necessary drivers for network adapters, especially if they’re specific to your device.
 
   To resolve this, follow these steps:
 
@@ -107,9 +106,7 @@ For more info, check out the full [video guide](https://youtu.be/lrq3ph3xi50?t=3
   2. **Transfer the driver** to your Windows installation via USB drive.
   3. **Install the driver** on your Windows system and restart if necessary.
 
-  After installation, you should be able to connect to the internet.
+After installation, you should be able to connect to the internet.
 
-  > [!TIP] </br>
-  > You can use WIMUtil in [Winhance](https://winhance.net/) to extract and add the drivers from your current operating system to the Windows installation media. These drivers should then be installed automatically during the Windows installation process, preventing any internet connection issues.
-
-</details>
+> [!TIP]
+> You can use WIMUtil in [Winhance](https://winhance.net/) to extract and add the drivers from your current operating system to the Windows installation media. These drivers should then be installed automatically during the Windows installation process, preventing any internet connection issues.
